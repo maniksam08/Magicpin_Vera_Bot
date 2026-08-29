@@ -1,4 +1,4 @@
-fastapiclear
+fastapi
 uvicorn
 pydantic
 pydantic-settings
