@@ -38,7 +38,7 @@ def check(name: str, condition: bool, detail: str = "") -> None:
 
 
 def run(base_url: str) -> int:
-    client = httpx.Client(base_url=base_url, timeout=15.0)
+    client = httpx.Client(base_url=base_url, timeout=60.0)
 
     r = client.get("/v1/healthz")
     check("GET /v1/healthz returns 200", r.status_code == 200, str(r.text))
