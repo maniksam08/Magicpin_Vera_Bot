@@ -1,0 +1,10 @@
+fastapiclear
+uvicorn
+pydantic
+pydantic-settings
+python-dotenv
+langchain-core
+langchain-anthropic
+langchain-openai
+httpx
+pytest
