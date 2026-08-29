@@ -26,6 +26,9 @@ vera-bot/
 ├── init.py
 └── test_endpoints.py       # Pytest contract-compatibility suite
 
+<img width="2800" height="1527" alt="Architecture" src="https://github.com/user-attachments/assets/66badb3c-65dd-4a97-a606-9f8ed46a43d9" />
+
+
 
 ## How a Request Flows
 
